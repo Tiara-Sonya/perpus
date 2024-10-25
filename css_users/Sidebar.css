@@ -1,0 +1,159 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+  * body {
+    font-family: "Poppins", sans-serif;
+    color: #002b5b;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #1a5f7a;
+    transition: var(--tran-05);
+  }
+  nav.close {
+    width: 73px;
+  }
+  nav .logo_image1 {
+    width: 70%;
+    padding: 10px 37px 10px 38px;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: #159895;
+    transition: var(--tran-05);
+  }
+  nav.close .logo_image1 {
+    opacity: 0;
+    pointer-events: none;
+  }
+  nav .logo_image2 {
+    width: 0%;
+    opacity: 1;
+    pointer-events: none;
+  }
+  nav.close .logo_image2 {
+    width: 80%;
+    margin-top: -34px;
+    padding: 5px 10px 12px 5px;
+    background-color: #159895;
+  }
+  nav .menu-items {
+    height: calc(100% - 50px);
+    display: flex;
+    margin-left: -30px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .menu-items li {
+    list-style: none;
+  }
+  .menu-items li a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 225px;
+    text-decoration: none;
+    position: relative;
+    top: -30px;
+  }
+  
+  nav.close .menu-items li a {
+    top: -13px;
+    width: 48px;
+  }
+  .menu-items li a i {
+    font-size: 15px;
+    min-width: 45px;
+    margin-left: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9f9f9;
+  }
+  .menu-items li a .link-name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f9f9f9;
+    transition: var(--tran-05);
+  }
+  nav.close li a .link-name {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .menu-items li a:hover {
+    background-color: #ffffff;
+    border-radius: 7px;
+  }
+  .menu-items li a:hover i,
+  .menu-items li a:hover .link-name {
+    color: #159895;
+  }
+  .dashboard {
+    position: relative;
+    left: 250px;
+    background-color: #f9f9f9;
+    height: 100vh;
+    width: calc(100% - 250px);
+    transition: var(--tran-05);
+  }
+  nav.close ~ .dashboard {
+    left: 73px;
+    width: calc(100% - 73px);
+  }
+  
+  .dashboard .top {
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    height: 34px;
+    width: calc(100% - 250px);
+    padding: 10px 14px;
+    z-index: 1;
+    background-color: #57c5b6;
+    transition: var(--tran-05);
+  }
+  nav.close ~ .dashboard .top {
+    left: 73px;
+    width: calc(100% - 73px);
+  }
+  .dashboard .top .sidebar-toggle {
+    font-size: 26px;
+    color: #f9f9f9;
+    margin: 2px;
+    cursor: pointer;
+  }
+  .dashboard .top .profile {
+    width: 40px;
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 120px;
+    transform: translateY(-50%);
+  }
+  nav.close ~ .dashboard .top .profile {
+    width: 40px;
+  }
+  .dashboard .top .text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f9f9f9;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+  }
+  
+ 
+  
+ 

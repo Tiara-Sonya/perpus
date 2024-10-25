@@ -1,0 +1,64 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+  * body {
+    font-family: "Poppins", sans-serif;
+    color: #002b5b;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  .nav-links li:nth-child(4) a {
+    background-color: #159895;
+    border-radius: 8px;
+  }
+  
+  .dataanggota{
+    height: 40px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  p {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    left: 30px;
+    top: 30px;
+    color: #002b5b;
+  }
+  .row {
+    display: flex;
+    width: 1000px;
+    top: 100px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .col-md-8 {
+    margin-left: 10px;
+    margin-right: 80px;
+    
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-dialog .modal-content{
+    width: 700px;
+    height: 500px;
+  }
+ 
+  
+  
+  
+ 
+  

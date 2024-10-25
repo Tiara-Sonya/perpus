@@ -1,0 +1,232 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Klee+One:wght@400;600&display=swap");
+  * body {
+    font-family: "Inter", sans-serif;
+    color: #002b5b;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  .navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #57c5b6;
+    position: fixed;
+    z-index: 1;
+  }
+  .logo {
+    width: 15%;
+    margin-top: 5px;
+    position: relative;
+  }
+  .back {
+    height: 30px;
+    margin: 80px 40px;
+  }
+  
+  p {
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    font-weight: normal;
+    top: 65px;
+    left: 100px;
+  }
+  .sign {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    margin-top: 0;
+    width: 900px;
+    height: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 200px;
+  }
+  .navform {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0;
+    width: 900px;
+    height: 50px;
+    background-color: #57c5b6;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 200px;
+  }
+  .hform {
+    position: absolute;
+    top: -5px;
+    left: 80px;
+    margin-left: -50px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="email"],
+  input[type="password"] {
+    width: 350px;
+    height: 15px;
+    color: #002b5b;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-right: 70px;
+    border: 1px solid #002b5b;
+    border-radius: 3px;
+  }
+  input[type="file"] {
+    width: 362px;
+    height: 15px;
+    color: #002b5b;
+    padding: 0px 0px 10px 0px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-right: 70px;
+    border: 1px solid #002b5b;
+    border-radius: 3px;
+    background-color: #ffffff;
+  }
+  
+  input[type="file"]::file-selector-button {
+    background-color: #159895;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"] {
+    outline: none;
+  }
+  select {
+    width: 362px;
+    height: 30px;
+    color: #002b5b;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid #002b5b;
+    border-radius: 3px;
+    outline: none;
+  }
+  .profil {
+    position: absolute;
+    left: 910px;
+    top: -70px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 200px;
+  }
+  .navprofil {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0;
+    width: 300px;
+    height: 50px;
+    background-color: #57c5b6;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 200px;
+  }
+  .format {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 260px;
+    height: 70px;
+    background-color: #159895;
+    border-radius: 5px;
+  }
+  .hformat {
+    margin-left: -25px;
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .foto {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  .pp {
+    margin-top: 280px;
+    margin-left: 5px;
+  }
+  #foto {
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .button-container {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -300px;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .cancel-button {
+    width: 40px;
+    height: 18px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #159895;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  .register-button {
+    width: 80px;
+    height: 36px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #159895;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  .cancel-button:hover,
+  .register-button:hover {
+    background-color: #004080;
+  }
+ 

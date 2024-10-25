@@ -1,0 +1,119 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+  * body {
+    font-family: "Poppins", sans-serif;
+    color: #002b5b;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  .nav-links li:nth-child(2) a {
+    background-color: #159895;
+    border-radius: 8px;
+  }
+ .box-search{
+  width: 800px;
+  height: 150px;
+  background-color:  #57c5b6; 
+  position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+ }
+ .searchBox{
+  position: relative;
+  height: 45px;
+  border: 1px solid #002b5b;
+  background-color: #f9f9f9;
+  display: flex;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 600px;
+ }
+
+ input[type="text"] {
+  width: 90%;
+  height: 90%;
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  color: #002b5b;
+  background-color: #f9f9f9;
+  
+ 
+ } 
+ input[type="text"]:focus {
+  outline: none;
+}
+.koleksi{
+  width: 1090px;
+  height: 2720px;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #d3d9df;
+  border-radius: 8px;
+  top: 265%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapperbox {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  
+}
+.box {
+  width: 180px;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.box img{
+  width: 65%;
+  padding: 15px 15px;
+  border-radius: 20px;
+  
+}
+.box h4{
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.box p{
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.box button{
+  width: 60px;
+  height: 25px;
+  color: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+  border-radius: 5px;
+  background-color: #159895;
+}
+.box button:hover{
+  background-color: #002b5b;
+}
+ 
+
+  
+  
+ 
+  
